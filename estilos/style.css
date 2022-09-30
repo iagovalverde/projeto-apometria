@@ -6,3 +6,186 @@
     box-sizing: border-box;
 }
 
+html, body {
+    background-color: lavender;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding: 15px;
+    text-align: center;
+    background-color: #341747;
+    color: white;
+}
+
+nav {
+    margin: auto;
+    padding: 10px;
+    width: 90vw;
+    background-color: rgb(174, 174, 174);
+}
+
+main {
+    margin: auto;
+    width: 90vw;
+    background-color: white;
+}
+
+main p.introducao {
+    margin: 15px 0px;
+    padding: 10px;
+    text-align: justify;
+}
+
+main h2.eventos {
+    margin: 0px;
+    padding: 8px;
+    background-color: #341747;
+    color: white;
+}
+
+main div.img-eventos {
+    margin: 0px;
+    display: flex;
+}
+
+main div.img-eventos img {
+    width: 50%;
+}
+
+main h3.titulo-evento {
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    text-align: center; 
+    font-size: 1.7em;
+}
+
+div.data-evento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+main ul {
+    margin: 5px;
+    font-size: 1.2em;
+    list-style: none;
+    text-decoration: underline;
+}
+
+img.logo-marca {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 20px;
+}
+
+div.socorro {
+    width: 100%;
+    padding: 10px;
+}
+
+div.socorro h2 {
+    padding: 10px;
+    background-color: #7A5F8F;
+    color: white;
+    text-align: left;
+    font-family: 1em;
+    border-radius: 10px;
+}
+
+div.socorro p {
+    width: 90%;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+div.video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+iframe.video-centro {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -0%);
+}
+
+section.agradecimento {
+    padding: 10px;
+}
+
+section.agradecimento h2 {
+    padding: 10px;
+    background-color: #7A5F8F;
+    color: white;
+    text-align: left;
+    font-family: 1em;
+    border-radius: 10px;
+}
+
+section.agradecimento p {
+    width: 90%;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer > div > a {
+    margin: 15px;
+    padding: 5px;
+    background-color: lavender;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+footer div.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 320px;
+}
+
+footer > div > h3 {
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+footer > p {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: lavender;
+    color: #341747;
+}
