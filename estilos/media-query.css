@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@media screen 
+{
+
+
+html, body {
+    background-color: #7a5f8f;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+
+}
+
+div {
+    margin: auto;    
+}
+
+.lotus {
+    position: relative;
+    margin-top: 40px;
+    width: 335px;
+    height: 335px;
+    background-image: url(../imagens/lotus-position.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 80%;
+}
+
+.chakra1 {
+    position: relative;
+    top: -30px;
+    left: 6px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra1:hover {
+    transform: scale(1.1);
+}
+
+.chakra2 {
+    position: relative;
+    top: -30px;
+    left: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra2:hover {
+    transform: scale(1.1);
+}
+
+.chakra3 {
+    position: relative;
+    top: -28px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra3:hover {
+    transform: scale(1.1);
+}
+
+.chakra4 {
+    position: relative;
+    top: -20px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra4.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra4:hover {
+    transform: scale(1.1);
+}
+
+.chakra5 {
+    position: relative;
+    top: 0px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra5.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra5:hover {
+    transform: scale(1.1);
+}
+
+.chakra6 {
+    position: relative;
+    top: 3px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra6.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra6:hover {
+    transform: scale(1.1);
+}
+
+.chakra7 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra7.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra7:hover {
+    transform: scale(1.1);
+}
+}
+
