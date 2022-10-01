@@ -29,10 +29,12 @@ h1 {
 
 span#burguer {
     display: block;
+    padding: 10px;
     background-color: #5a4669;
     color: white;
+    font-size: 2em;
     text-align: center;
-    padding: 10px;
+    
 }
 
 nav {
