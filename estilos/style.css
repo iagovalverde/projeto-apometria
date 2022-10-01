@@ -27,11 +27,36 @@ h1 {
     text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.611);
 }
 
-nav {
-    margin: auto;
+span#burguer {
+    display: block;
+    background-color: #5a4669;
+    color: white;
+    text-align: center;
     padding: 10px;
-    width: 90vw;
-    background-color: rgb(174, 174, 174);
+}
+
+nav {
+    display: none;
+    margin: auto;
+    background-color: #5a4669;
+}
+
+nav ul { 
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-top: 2px solid lavender;
 }
 
 main {
@@ -42,7 +67,7 @@ main {
 }
 
 main p.introducao {
-    margin: 15px 0px;
+    margin-top: 10px;
     padding: 10px;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
