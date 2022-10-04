@@ -61,6 +61,10 @@ nav > ul > li > a {
     border-top: 2px solid lavender;
 }
 
+div.lotus a {
+    display: none;
+}
+
 main {
     margin: auto;
     width: 90vw;
