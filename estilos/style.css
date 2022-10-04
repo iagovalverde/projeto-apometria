@@ -145,10 +145,29 @@ div.socorro h2 {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.499);
 }
 
-div.socorro p {
+div.socorro p.info {
     width: 90%;
     margin-top: 5px;
     padding: 10px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+div.texto-principal > h2 {
+   padding: 10px;
+    background-color: #7A5F8F;
+    color: white;
+    text-align: left;
+    font-family: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.499); 
+}
+    
+div.texto-principal {
+    width: 95%;
+    margin-top: 5px;
+    padding: 7px;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;

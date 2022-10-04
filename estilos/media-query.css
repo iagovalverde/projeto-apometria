@@ -35,6 +35,10 @@ span#burguer {
     display: none;
 }
 
+ul.submenu {
+    display: none; 
+}
+
 div.lotus a {
     display: block;
     position: relative;
@@ -230,9 +234,30 @@ div.socorro {
     color: white;
 }
 
-div.socorro p {
+div.socorro > p.info {
     margin-top: 10px;
     margin-left: 20px;
+    color: white;
+}
+
+div.socorro p.texto {
+    margin: auto;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-align: justify;
+}
+
+div.texto-principal {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.756);
+    text-align: justify;
+}
+
+div.texto-principal p {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div.video iframe {
@@ -275,6 +300,10 @@ div {
 
 span#burguer {
     display: none;
+}
+
+ul.submenu {
+    display: none; 
 }
 
 div.lotus a {
@@ -472,9 +501,30 @@ div.socorro {
     color: white;
 }
 
-div.socorro p {
+div.socorro > p.info {
     margin-top: 10px;
     margin-left: 20px;
+    color: white;
+}
+
+div.socorro p.texto {
+    margin: auto;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-align: justify;
+}
+
+div.texto-principal {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.756);
+    text-align: justify;
+}
+
+div.texto-principal p {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div.video iframe {
@@ -489,6 +539,9 @@ section.agradecimento {
 section.agradecimento p {
     width: 100%;
     color: white;
+}
+
+footer {
 }
 
 }
