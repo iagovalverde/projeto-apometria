@@ -14,7 +14,7 @@ Grandes telas: acima de 1200px
 {
 
 html, body {
-    background-color: #7a5f8f;
+    background-color: lavender;
     background-repeat: no-repeat;
 }
 
@@ -159,3 +159,217 @@ div {
 }
 }
 
+/* DESKTOP */
+@media screen and (min-width: 992px) 
+{
+
+html, body {
+    background-color: white;
+    background-repeat: no-repeat;
+}
+main {
+    width: 75%;
+    background-image: linear-gradient(68.15deg, #341747 16.62%, #e6e6fa 85.61%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4em;
+}
+
+div {
+    margin: auto;    
+}
+
+span#burguer {
+    display: none;
+}
+
+section.menu-introducao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+section.menu-chakras {
+    width: 20%;
+}
+
+section.menu-introducao p.introducao {
+    padding: 20px;
+    width: 50%;
+    background-color: #5a4669;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+.lotus {
+    position: relative;
+    margin-top: 40px;
+    width: 335px;
+    height: 335px;
+    background-image: url(../imagens/lotus-position.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 70%;
+}
+
+.chakra1 {
+    position: relative;
+    top: -30px;
+    left: 6px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra1:hover {
+    transform: scale(1.1);
+}
+
+.chakra2 {
+    position: relative;
+    top: -30px;
+    left: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra2:hover {
+    transform: scale(1.1);
+}
+
+.chakra3 {
+    position: relative;
+    top: -28px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra3:hover {
+    transform: scale(1.1);
+}
+
+.chakra4 {
+    position: relative;
+    top: -20px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra4.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra4:hover {
+    transform: scale(1.1);
+}
+
+.chakra5 {
+    position: relative;
+    top: 0px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra5.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra5:hover {
+    transform: scale(1.1);
+}
+
+.chakra6 {
+    position: relative;
+    top: 3px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra6.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra6:hover {
+    transform: scale(1.1);
+}
+
+.chakra7 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../imagens/chakra7.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.chakra7:hover {
+    transform: scale(1.1);
+}
+
+section.eventos-novidades {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: 55%;
+    background-color: #34174798;
+    border-radius: 7px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.499);
+}
+
+section.eventos-novidades h2 {
+    border-radius: 7px 7px 0px 0px;
+}
+
+div.data-evento {
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+div.socorro {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    float: left;
+    width: 40%;
+    color: white;
+}
+
+div.socorro p {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+div.video {
+    width: 60%;
+}
+
+}
