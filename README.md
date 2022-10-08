@@ -1,7 +1,6 @@
 # Projeto (Mobile First) - Apometria
 
-![preview](./assets/preview-desktop.png)
-![preview](./assets/preview-cellphone.png)
+![preview](./imagens/preview-desktop.png)
 
  Projeto para o Centro Apométrico de Piracicaba/SP
 
