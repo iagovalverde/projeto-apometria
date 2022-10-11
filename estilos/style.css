@@ -242,21 +242,20 @@ footer > div > a {
 }
 
 footer > div > h3 {
-    margin-top: 10px;
+    margin-top: 3px;
+    margin-bottom: 1px;
     font-family: monospace;
     font-weight: bold;
     font-size: 1.5em;
 }
 
 footer > div > p {
-    margin: 5px;
-    padding: 10px;
+    margin-bottom: 15px;
     font-family: monospace;
     font-size: 1.2em;
 }
 
 footer > p {
-    padding: 5px;
     text-align: center;
     font-weight: bold;
     font-size: 1.1em;
